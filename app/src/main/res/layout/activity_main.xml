@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tvMsn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Suma de Numeros"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#8A14BF"
+        />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/ivImagen"
+        android:layout_marginVertical="30dp"
+        android:src="@drawable/calculator_icon"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNum1"
+        android:text="Numero 1"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="15sp"
+        android:textColor="#8A14BF"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNum1"
+        android:inputType="number"
+        android:gravity="end"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNum2"
+        android:text="Numero 2"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="15sp"
+        android:textColor="#8A14BF"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNum2"
+        android:gravity="end"
+        android:inputType="number"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSumar"
+        android:text="Sumar"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="#8A14BF"
+        />
+ <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRestar"
+        android:text="Restar"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="#8A14BF"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvResultado"
+        android:text="0"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textColor="#8A14BF"
+        android:gravity="end"
+        android:textStyle="bold"
+        />
+
+
+
+
+
+</LinearLayout>
